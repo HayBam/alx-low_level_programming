@@ -2,7 +2,7 @@
 
 /**
  * main - This function prints output of alphabeth
- * in small letters
+ * in small letters and capital letters
  *
  * Return: Always return zero if successful
  */
