@@ -2,7 +2,7 @@
 
 /**
  * main - This function prints the unique combination
- * of single digit numbers
+ * of two two digit numbers
  *
  * Return: Always return zero if successful
  */
@@ -10,16 +10,22 @@ int main(void)
 {
 	int a, b;
 
-	for (a = 48; a < 58; a++)
+	for (a = 0; a < 100; a++)
 	{
-		for (b = 48; b < 58; b++)
+		for (b = 0; b < 100; b++)
 		{
-			putchar(a);
-			putchar(b);
-			if (a != 57 || (a != 57 || b != 57))
+			if (a < b)
 			{
-				putchar(44);
+				putchar((a / 10) + 48);
+				putchar((a % 10) + 48);
 				putchar(32);
+				putchar((b / 10) + 48);
+				putchar((b % 10) + 48);
+				if (a != 98 || b != 99)
+				{
+					putchar(44);
+					putchar(32);
+				}
 			}
 		}
 	}
