@@ -1,11 +1,12 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - 
+ * main - This function prints from a header file
  *
  * Return: This program returns zero if successful
  */
-int main (void)
+int main(void)
 {
-	_putchar()
+	_putchar();
+	return (0);
 }
