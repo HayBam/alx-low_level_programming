@@ -1,3 +1,5 @@
+#include "_putchar"
+
 /**
  * print_numbers - This function prints the numbers 0 to 9
  *
