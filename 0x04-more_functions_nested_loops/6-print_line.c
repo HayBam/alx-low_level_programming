@@ -4,7 +4,7 @@
  * print_line - This function prints _ everytime
  * there is a number
  *
- * Return: Always return zero if successful
+ * @n: Takes the input of integer
  */
 void print_line(int n)
 {
