@@ -14,13 +14,13 @@ void print_diagonal(int n)
 	{
 		while (n > i)
 		{
-			printf(92);
+			_putchar(92);
 			i++;
 		}
-		printf("\n");
+		_putchar('\n');
 	}
 	else if (n <= i)
 	{
-		printf("\n");
+		_putchar('\n');
 	}
 }
