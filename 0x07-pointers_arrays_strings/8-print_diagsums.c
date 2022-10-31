@@ -3,7 +3,7 @@
 /**
  * print_diagsums - This function prints the sum of
  * the two diagonals of a square matrix
- * 
+ *
  * @a: pointer to start of matrix
  * @size: width of matrix column
  *
